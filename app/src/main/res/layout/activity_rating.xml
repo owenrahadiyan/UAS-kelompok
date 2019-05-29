@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_purple_gradient"
+    android:layout_height="match_parent"
+    tools:context=".Rating">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgratingss"
+        android:layout_width="198dp"
+        android:layout_height="216dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_dash_rating" />
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textDesc3"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:text="Berikan rating anda pada aplikasi ini, untuk membantu kami dalam pengembangan aplikasi ini."
+        android:textColor="#fff"
+        android:textSize="19dp"
+        android:layout_below="@+id/imgratingss"/>
+
+    <com.hsalf.smilerating.SmileRating
+        android:layout_centerVertical="true"
+        android:id="@+id/smile_rating"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDesc3"/>
+
+</RelativeLayout>

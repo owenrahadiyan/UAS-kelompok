@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "924008820592",
+    "firebase_url": "https://mykosapp.firebaseio.com",
+    "project_id": "mykosapp",
+    "storage_bucket": "mykosapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924008820592:android:55cfa3b61ae829e9",
+        "android_client_info": {
+          "package_name": "com.wp.kosku.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924008820592-0diard7gp4tqib2mnnvmn37o367hosuj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wp.kosku.app",
+            "certificate_hash": "2c27672c5bd6a41dc78bc7efc9f2247e56fb6a1b"
+          }
+        },
+        {
+          "client_id": "924008820592-m4ml6t1b4aa0sduv9afb8qiscf38dss4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCspvWRysz-0her2iCU82Z-zqDESBtVzng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924008820592-m4ml6t1b4aa0sduv9afb8qiscf38dss4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
